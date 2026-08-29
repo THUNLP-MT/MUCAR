@@ -2,7 +2,6 @@
 
 📖 **Paper:** [MUCAR: Benchmarking Multilingual Cross-Modal Ambiguity Resolution for Multimodal Large Language Models](https://aclanthology.org/2025.emnlp-main.760/)
 🏆 **EMNLP 2025**
-**Download images** ()
 
 This repository contains the dataset for the paper **MUCAR: Benchmarking Multilingual Cross-Modal Ambiguity Resolution for Multimodal Large Language Models**.
 
