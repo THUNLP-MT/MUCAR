@@ -30,15 +30,7 @@ Each instance contains an ambiguous textual expression, the corresponding visual
 The main fields include:
 
 ```text
-id
-question_id
-image_id
-sentence
-question
-options
-answer
-tags
-eval
+{ "id": 0, "question_id": 1, "image_id": "1-1", "sentence": "I saw the man with a telescope.", "question": "Please translate this sentence into Chinese.", "options": [ "A.我用望远镜看见一个男人。", "B.我看见一个手里拿着望远镜的男人。" ], "answer": "A.我用望远镜看见一个男人。", "tags": { "category": 3, "language": 2 } }
 ```
 
 For the same ambiguous textual expression, different visual contexts may lead to different interpretations. Therefore, models are required to jointly reason over textual and visual information to determine the correct answer.
