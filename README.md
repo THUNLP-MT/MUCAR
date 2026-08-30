@@ -17,14 +17,14 @@ MUCAR contains **1,278 manually curated samples** in **Chinese, English, and Mal
 * **Dual-Ambiguity Resolution**: both the image and textual context are ambiguous individually, while their combination yields a unique interpretation through cross-modal mutual disambiguation.
 
 We evaluate **19 state-of-the-art MLLMs**, including both proprietary and open-source models. Experimental results reveal a substantial gap between current MLLMs and human-level performance in multilingual and cross-modal ambiguity resolution.
-
+![MUCAR Topfig](./fig2.pdf)
 ## Dataset
 
 The benchmark annotations are provided in [`data-all.json`](./data-all.json).
 
 The image data used in MUCAR can be downloaded from [🤗 Hugging Face](https://huggingface.co/datasets/kevindragon221/MUCAR).
-
-
+![MUCAR Case](./case.pdf)
+![MUCAR Case](./sta2.pdf)
 Each instance contains an ambiguous textual expression, the corresponding visual context information, a question, candidate answers, the ground-truth answer, and annotation tags.
 
 The main fields include:
